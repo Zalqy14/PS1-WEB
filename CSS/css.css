@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+}
+body {
+  background-image: url(../IMG/ps1-bios-backgrounds-as-desktop-wallpapers-v0-nud6ptrg2hf81.jpg);
+  display: flex;
+  justify-content: center;
+}
+main {
+  background-color: #333333;
+  padding: 15px;
+  width: 90%;
+  margin-top: 50px;
+}
+header {
+  background-color: black;
+  padding: 30px;
+}
+/* Titulo Principal */
+header h1 {
+  color: white;
+}
+/* Sub titulo */
+header h2 {
+  color: turquoise;
+}
+/* Navegador de la web */
+nav {
+  background-color: rgb(39, 36, 36);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /* No se puede poner padding que se descuadra*/
+}
+nav a {
+  padding: 10px;
+  text-decoration: none;
+  color: turquoise;
+  border: 0.1px solid grey;
+}
+nav a:hover {
+  color: white;
+  background-color: rgba(250, 235, 215, 0.452);
+}
+/* La Altura del aside esta a ojo */
+aside {
+  float: right;
+  width: 25%;
+  height: 87.8%;
+  padding: 15px;
+  border-left: 1px solid turquoise;
+}
+aside h3 {
+  color: white;
+  font-size: 14px;
+  border-left: 3px solid turquoise;
+  padding-left: 8px;
+  margin-bottom: 15px;
+}
+/* Contenedor Del Aside */
+aside div {
+  display: flex;
+  justify-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+aside img {
+  width: 80px;
+  height: 80px;
+}
+aside p {
+  color: white;
+}
+/* Para Separa el section del aside */
+section {
+  width: 70%;
+}
+article {
+  color: white;
+}
+article h2 {
+  color: turquoise;
+  border-left: 5px solid turquoise;
+  padding-left: 10px;
+}
+article p {
+  color: white;
+  text-align: justify;
+}
+/* Titulo del contenedor: cont que guarda Rick Dangerous */
+.titulo1 {
+  border-bottom: 5px solid turquoise;
+  border-left: none;
+}
+/* Primer Contenedor guarda Rick Dangerous */
+.cont {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  margin: 50px;
+}
+/* Primera Imagen de la Web*/
+.cont img {
+  width: 300px;
+  height: 300px;
+}
+/* Imagen que flota en el texto de Extra Info*/
+.core {
+  float: right;
+  margin-left: 50px;
+}
+/* Referencia Al article sobre Media */
+.media {
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+}
+/* Links De Descargas */
+.descg a {
+  color: turquoise;
+  text-decoration: none;
+}
+footer {
+  padding: 50px;
+  text-align: center;
+  color: white;
+}
