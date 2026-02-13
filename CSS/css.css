@@ -127,3 +127,41 @@ footer {
   text-align: center;
   color: white;
 }
+/* Pagina Web news */
+.yume {
+  margin-top: 20px;
+  border: 1px solid turquoise;
+  height: 150px;
+}
+.yume h2 {
+  border: none;
+}
+.yume img {
+  float: left;
+  width: 150px;
+  height: 130px;
+  margin: 10px;
+}
+.yume div {
+  margin-right: 10px;
+}
+
+.sonic {
+  border: 1px solid turquoise;
+  height: 150px;
+}
+.sonic h2 {
+  border: none;
+}
+.sonic div {
+  margin-right: 10px;
+}
+.sonic img {
+  float: left;
+  width: 150px;
+  height: 130px;
+  margin: 10px;
+}
+.newsAside {
+  height: 65.59%;
+}
